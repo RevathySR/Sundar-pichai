@@ -1,0 +1,323 @@
+*{
+   
+    margin: 0;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(160, 105, 33);
+    text-shadow: 2px 1px rgb(151, 141, 121) ;
+    position: sticky;
+    top: 0;
+    /* z-index: -1; */
+    /* opacity: 0.9; */
+
+}
+
+span{
+    color: rgb(202, 184, 51);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/019/313/461/large/vimal-varman-sudar-pichai.jpg?1562924845');
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+ 
+    z-index: -1;
+    opacity: 0.9;
+}
+.home{
+    border: 4px dotted rgb(222, 83, 33);
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 45%;
+    left: 15%;
+    z-index: -1;
+    box-shadow: 3px 4px 6px 2px;
+    text-shadow: 2px 3px 4px ;
+    font-size: xx-large;
+    font-style: italic;
+}
+.heading{
+    color: rgb(120, 54, 10);
+    text-align: center;
+    margin: 10px;
+    font-weight: 900;
+    font-size: x-large;
+    font-style: italic;
+}
+.heading:hover{
+    color: rgb(69, 63, 63);
+    text-shadow: 3px 5px 6px rgb(9, 24, 19);
+}
+.pic{
+    display: flex;
+    
+}
+.pic p{
+    text-align: justify;
+    margin: 40px;
+
+}
+.pic img{
+    width: 100%;
+    height: 300px;
+
+} 
+h3{
+    color: rgb(37, 21, 55);
+    text-align: center;
+    text-decoration: underline;
+}
+.gallery{
+    margin-left: 150px;
+    justify-content: space-between;
+
+}
+.gallery img{
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    
+}
+.gallery img:hover{
+    border: 2px ridge rgb(178, 169, 158);
+    box-shadow: 4px 3px 4px 2px rgb(232, 173, 134);
+    width:450px ;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.box{
+    width: 300px;
+    height: 500px;
+    border: 2px ridge rgb(243, 219, 189);
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(to top,rgb(223, 184, 152) 50%, rgb(241, 158, 94) 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box img{
+    width:250px;
+    
+    margin-left: 30px;
+
+    }
+    .box h1{
+        margin: 10px;
+        color: rgb(83, 62, 62);
+
+    }
+.box p{
+    margin: 10px;
+    text-align: justify;
+}
+.box:hover{
+    border: none;
+    box-shadow: 3px 4px 2px rgb(24, 53, 85);
+    background-position: left bottom;
+}
+
+
+
+
+img{
+    width: 100%;
+    border-radius:10%;
+   border:  4px ridge rgb(233, 151, 84) ;
+    height: 50%;
+
+    
+    
+}
+.img:hover {
+    transform: scale(1);
+    width: 150px;
+    height: 50px;
+    
+  }
+  .abox{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    padding: 10px;
+    /* align-items: center; */
+    align-content: center;
+   
+  }
+
+.vbox{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 2px double rgb(243, 219, 189);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(187, 175, 153);
+    align-items: center;
+}
+.vbox img{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    margin-left: 30px;
+
+    }
+    .vbox h1{
+        display: flex;
+        flex-direction: column;
+            margin: 10px;
+        color: rgb(83, 62, 62);
+
+    }
+.vbox p{
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px;
+    text-align: justify;
+}
+.vbox:hover{
+    border: none;
+    box-shadow: 3px 4px 2px rgb(85, 66, 24);
+    background-position: left bottom;
+}
+
+ .vbox iframe{
+    display: flex;
+    flex-direction: column;
+
+    height: 200px;
+    width: 400px;
+    border: 2px rgb(139, 109, 99);
+    align-content: center;
+}
+book{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 229, 220);
+    margin: 25px;
+    padding: 30px;
+}
+.book img{
+    height: 300px;
+    width: 500px;
+    align-items: center;
+}
+.book p{
+    text-align: justify;
+}
+.vid{
+   
+    height: 400px;
+    width: 450px;
+    border-radius: 2px;
+    border: 3px groove rgb(169, 147, 106);
+    box-shadow: 1px 1px 2px rgb(191, 144, 88);
+    margin: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    align-content: center;
+}
+
+
+.quote{
+    margin-left: 150px;
+    justify-content: space-between;
+
+}
+.quote img{
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    
+}
+.quote img:hover{
+    border: 2px ridge rgb(178, 169, 158);
+    box-shadow: 4px 3px 4px 2px rgb(232, 173, 134);
+    width:370px ;
+
+}
+
+.f{
+    justify-content: space-between;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(18, 17, 17);
+    color: rgb(160, 105, 33);
+    text-shadow: 2px 1px rgb(151, 141, 121) ;
+}
+.logo{
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.logo a{
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(160, 105, 33);
+    text-decoration: none;
+}
+.logo a img{
+    height: 25px;
+    width: 50px;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
