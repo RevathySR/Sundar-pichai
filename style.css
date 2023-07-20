@@ -1,5 +1,4 @@
 *{
-   
     margin: 0;
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
@@ -79,7 +78,7 @@ span{
     text-align: center;
     margin: 10px;
     font-weight: 900;
-    font-size: x-large;
+    font-size:xx-large;
     font-style: italic;
 }
 .heading:hover{
@@ -100,10 +99,18 @@ span{
     height: 300px;
 
 } 
+
+
 h3{
     color: rgb(37, 21, 55);
     text-align: center;
     text-decoration: underline;
+    font-weight: 600;
+    font-size: x-large;
+}
+.h3:hover{
+    color: rgb(108, 72, 21);
+    text-shadow: 2px 2px 1px gray;
 }
 .gallery{
     margin-left: 150px;
@@ -119,7 +126,7 @@ h3{
 .gallery img:hover{
     border: 2px ridge rgb(178, 169, 158);
     box-shadow: 4px 3px 4px 2px rgb(232, 173, 134);
-    width:450px ;
+    width:400px ;
 }
 .row{
     display: flex;
@@ -195,6 +202,7 @@ img{
     padding: 10px;
     background-color: rgb(187, 175, 153);
     align-items: center;
+    align-content: center;
 }
 .vbox img{
     display: flex;
@@ -320,4 +328,9 @@ book{
     text-align: center;
     justify-content: space-between;
 
+}
+#achivements{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
